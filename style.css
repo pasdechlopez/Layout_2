@@ -1,0 +1,567 @@
+* {
+margin: 0;
+}
+.html {
+background-size: cover;
+box-sizing: border-box;
+}
+.header, .about, .dignity, .screenshot, .reviews, .buy, contacts {
+min-height:calc(100vh-40px);
+}
+.container {
+margin: auto;
+overflow: auto;
+padding: 40px;
+min-width: 1280px;
+width: 1280px;
+font-family: Arial;
+}
+.header {
+background: #445162;
+background-size: 100%;
+}
+.header_product {
+color: white;
+/* Style for "Product na" */
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+
+font-size: 60px;
+font-weight: 400;
+}
+.product_list {
+padding: 40px 0 0 0;
+list-style-type: none;
+width: 649px;
+color: white;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+padding-right: 25px;
+}
+.product_div {
+text-align: middle;
+}
+#rectangle.product_rectangle {
+background:white;
+height: 215px;
+width: 470px;
+/*margin-left: 60%;
+margin-top: -10%;*/
+}
+.product_rectangle {
+float: right;
+margin-top: -195px;
+}
+.about{
+color: #445162;
+}
+.about_h {
+/* Style for "About your" */
+color: #445161;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+float: left;
+}
+.about_text {
+/* Style for "Lorem ipsu" */
+width: 50%;
+float: left;
+color: #333333;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-top: 25px;
+}
+#rectangle.about_rectangle {
+background:#445162;
+width: 430px;
+height: 245px;
+float: right;
+}
+.dignity_h {
+/* Style for "Dignity an" */
+color: #445161;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+}
+.dignity_text {
+width: 526px;
+}
+.dignity_img {
+float: left;
+width: 32px;
+}
+#h2 {
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+}
+.dignity_container {
+text-align: left;
+}
+/*.dignity_block_1, .dignity_block_2 {
+display: inline-block;
+}
+.dignity_block_3, .dignity_block_4 {
+display: inline-block;
+}
+.dignity_block_5, .dignity_block_6 {
+display: inline-block;
+}*/
+.dignity_block {
+/*padding-left: 50px;
+padding-right: 50px;*/
+padding-top: 10px;
+margin: 10px;
+width: 570px;
+line-height: 25px;
+display: inline-block;
+}
+.dignity_img {
+padding-right: 10px;
+padding-left: px;
+padding-top: 6px;
+float: left;
+margin-bottom: 35px;
+}
+.dignity_text {
+text-align: center;
+}
+.footer {
+height: 40px;
+width: 100%;
+padding: 15px;
+background: #f5f5f5;
+background-size: cover;
+font-family: Arial;
+}
+.footer_text {
+display: table;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+color:#5c6776;
+vertical-align: top;
+color:#838b96;
+padding: 5px;
+font-size: 15px
+}
+.buy_flex {
+padding: 40px;
+}
+.reviews{
+background-color: #f5f5f5;
+color:#565656 ;
+/* Style for "Porro offi" */
+color: #333333;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+}
+#comment_bubble {
+width: 485px;
+height: 125px;
+background: #ebebeb;
+position: relative;
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+bottom: 20px;
+left: 10px;
+padding-bottom: 10px;
+}
+#comment_bubble:before {
+content: "";
+width: 0;
+height: 0;
+right: 100%;
+top: 30px;
+position: absolute;
+border-top: 10px solid transparent;
+border-right: 15px solid #ebebeb;
+border-bottom: 10px solid transparent;
+}
+.contacts_message {
+width: 497px;
+}
+.image {
+background-image: bg_review.png
+}
+#circle.reviews_circle_1, #circle.reviews_circle_2, #circle.reviews_circle_3, #circle.reviews_circle_4  {
+color:#565656;
+width: 75px;
+height: 75px;
+background-color: #445161;
+border-radius: 50%;
+position: relative;
+right: 75px;
+top: 45px;
+}
+.buy {
+color: #445162;
+}
+.buy_rectangle_1, .buy_rectangle_2, .buy_rectangle_3, .contacts_button{
+background-color: #445162;
+color:white;
+margin: 10px;
+border-style: solid black 3px;
+border-radius: 7px;
+margin-left:auto;
+margin-right: auto;
+}
+.buy_rectangle_1 {
+height: 300px;
+width: 300px;
+margin-left: 100px;
+
+}
+.buy_rectangle_2 {
+height: 400px;
+width: 300px;
+margin-right: 45px;
+margin-left: 45px;
+
+}
+.buy_rectangle_3 {
+height: 500px;
+width: 300px;
+margin-right: 10px;
+}
+.buy_rectangle_1, .buy_rectangle_2, .buy_rectangle_3 {
+display: inline-block;
+vertical-align: bottom;
+text-align: center;
+}
+.buy_inner_rectangle_3, .buy_inner_rectangle_2, .buy_inner_rectangle_1 {
+/* Style for "bg button" */
+width: 260px;
+height: 40px;
+background-color: white;
+padding-top: 10px;
+border-radius: 5px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+}
+.buy_inner_rectangle_1 {
+bottom: 15px;
+}
+.buy_inner_rectangle_2 {
+bottom:-5px;
+}
+.buy_inner_rectangle_3 {
+bottom: -22px;
+}
+.buy_image_3, .buy_image_2, .buy_image_1 {
+color:#445162;
+padding: 7px;
+}
+.buy_price_1, .buy_price_2, .buy_price_3 {
+width: 300px;
+height: 70px;
+padding-top:10px;
+padding-bottom: 10px;
+}
+.buy_list_1, .buy_list_2, .buy_list_3 {
+padding-top: 10px;
+padding-bottom: 20px;
+line-height: 20px;
+list-style-type: decimal;
+}
+.buy_outer_rectangle_2, .buy_outer_rectangle_3, .buy_outer_rectangle_1 {
+width: 297px;
+margin: 0 auto;
+height: 70px;
+background-color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+border-style: solid 5px black;
+}
+.buy_price_h3 {
+padding-top: 15px !important;
+font-size: 40px;
+font-weight: 400;
+line-height: 30px;
+}
+.buy_image_2 {
+}
+
+.buy_class {
+padding-top: 15px;
+color: #ffffff;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+}
+.buy_rectangle_3{
+max-height: 650px;
+}
+.buy_image_h3_1, .buy_image_h3_2, .buy_image_h3_3 {
+}
+
+.buy_container {
+max-height: 650px;
+}
+.buy_rectangle_1, .buy_rectangle_2, .buy_rectangle_3 {
+}
+.dignity_h {
+/* Style for "Dignity an" */
+color: #445161;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+max-height: 400px;
+}
+.dignity_left_side, .dignity_right_side {
+/* Style for "Lorem ipsu" */
+color: #333333;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.dignity {
+background-color: #f5f5f5;
+}
+.reviews_circle_1{
+position: relative;
+
+}
+.reviews_right{
+position: relative;
+float: right;
+width: 35%;
+right: 80px;
+}
+.reviews_left {
+float: left;
+width:35%;
+position: relative;
+left: 80px;
+}
+#circle.reviews_circle_1, #circle.reviews_circle_2, #circle.reviews_circle_3, #circle.reviews_circle_4  {
+color:#565656;
+width: 75px;
+height: 75px;
+background-color: #445161;
+border-radius: 50%;
+position: relative;
+right: 90px;
+top: 75px;
+}
+.screenshots_rectangle{
+background-color: #445161;
+width: 170px;
+height: 150px;
+padding-top: 35px;
+padding-bottom: 35px;
+}
+.screenshots_desc {
+color:#495666;
+margin-bottom: 15px;
+font-size: 24px;
+}
+.screenshots_p {
+padding: 16px 20px 41px 27px;
+}
+.reviews_author {
+color: #989898;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+
+}
+.screenshots_rectangle {
+margin-bottom: 30px;
+}
+.screenshots_container {
+padding: 50px 40px 50px 65px;
+}
+
+.screenshots_2, .screenshots_rectangle {
+display: inline-block;
+padding: 10px;
+}
+
+
+.screenshots_2 {
+width: 30%;
+vertical-align: top;
+margin-top: -10px;
+}
+.contacts {
+background-color: #445162;
+color:white;
+padding:50px;
+}
+.contacts_contacts {
+margin-left: 15%;
+}
+.contacts_contacts, .contacts_fill {
+display: inline-block;
+padding-top: 20px;
+}
+.contacts_fill {
+vertical-align: top;
+padding-left: 35%px;
+}
+.contacts_email:focus, .contacts_form:focus {
+height: 12px;
+color: #445162;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+width: 500px;
+height: 40px;
+border-radius: 5px;
+color:#445162;
+}
+.contacts_form {
+width: ;
+height: 12px;
+color: #445162;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+width: 500px;
+height: 40px;
+border-radius: 5px;
+color:#445162;
+}
+.contacts_h2 {
+/* Style for "Contacts" */
+color: #ffffff;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+}
+.contacts_container, .buy_container {
+
+max-height: 700px;
+}
+.contacts_message {
+height: 170px;
+width: 497px;
+border-radius: 5px;
+font-color:#445162;
+padding: 5px;
+margin-left: 25%;
+resize: none;
+color: pink;
+/* Style for "Your email" */
+color: #445162;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+contacts_message {
+color: #445162;
+font-size: 16px;
+}
+.contacts_message:focus {
+height: 170px;
+width: 497px;
+border-radius: 5px;
+font-color:#445162;
+padding: 5px;
+margin-left: 25%;
+resize: none;
+color: pink;
+/* Style for "Your email" */
+color: #445162;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+contacts_message {
+color: #445162;
+font-size: 16px;
+}
+.contacts_email {
+
+border-radius: 5px;
+color:#445162;width: 82px;
+height: 12px;
+color: #445162;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+width: 503px;
+height: 40px;
+border-radius: 5px;
+font-color:#445162;
+}
+.contacts_email_container {
+
+color:#445162;
+margin-left: 25%;
+}
+.contacts_form_container {
+margin-left: 25%;
+}
+.contacts_form {
+width: 500px;
+height: 40px;
+border-radius: 5px;
+font-color:#445162;
+}
+.skype, .icq, .phone, .at {
+padding: 10px;
+margin-bottom: 30px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.icons {
+font-family: Socialico;
+font-size: 42px;
+font-size: 60px;
+font-weight: 400;
+line-height: 24px;
+/* Text style for "l, figx" */
+letter-spacing: 1.5px;
+}
+.contacts_send{
+width: 140px;
+height:40px;
+border-radius: 5px;
+color: #445162;
+font-family: "Arial - Bold MT";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-left: 65%;
+background: #ffffff
+}
+.contacts_button {
+width: 140px;
+
+color: #445162;
+
+
+font-size: 16px;
+
+font-weight: 400;
+
+line-height: 24px;
+
+text-transform: uppercase;
+}
+.reviews_p_image {
+background-image: url("bg_review.png") ;
+/* Style for "bg review" */
+background-repeat: no-repeat;
+width: 483px;
+padding: 15px;
+}
+h3.screenshots {
+color: #445161;
+}
+@font-face {
+font-family: "Socialico"; /* Имя шрифта */
+src: url("Socialico.ttf");
+color: white;
+font-weight: normal;
+font-style: normal;
+}
